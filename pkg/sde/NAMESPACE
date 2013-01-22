@@ -1,3 +1,4 @@
+useDynLib(sde)
 export(sde.sim)
 # Ornstein-Uhlenbeck
 export(rcOU)
