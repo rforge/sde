@@ -56,6 +56,11 @@ export(cpoint)
 export(sdeAIC)
 export(MOdist)
 export(sdeDiv)
+# imports
+importFrom("MASS", mvrnorm)
+importFrom("fda", eval.basis)
+importFrom("zoo", zoo)
+importFrom("stats4", mle)
 
 
 
